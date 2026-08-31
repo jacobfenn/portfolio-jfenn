@@ -1,23 +1,31 @@
 /* ==========================
    1. RESET
-   *,
-   *::before,
-   *::after {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+   ========================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-max-width: 100%;
-height: auto;
-display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
-   ========================== */
 
 /* ==========================
    2. DESIGN TOKENS
    ========================== */
+   :root {
+    /* Color */
+    /* Spacing - a modular scale */
+    /* Typography */
+    /*Layout */
+    --page-width: 64rem;
+    --reading-width: 70ch;
+   }
 
 /* ==========================
    3. BASE ELEMENT STYLES
