@@ -15,11 +15,12 @@
 
         <nav>
             <a href="index.html">Home</a> |
-            <a href="about.html">About</a>
+            <a href="about.html">About</a> |
+            <a href="#about">Read about me</a>
         </nav>
 
         <p>
-            Welcome to my portfolio. I am a senior at TCU from Cleveland, Ohio.
+            Welcome to my portfolio. I am a <strong>senior</strong> at TCU from Cleveland, Ohio.
         </p>
     </header>
 
@@ -27,13 +28,64 @@
 
     <main>
         <section>
-            <h2>Welcome to my page</h2>
+            <h2 id="about">Welcome to my page</h2>
             <p>
-                I enjoy staying active, playing different sports, and developing
-                my coding skills.
+                I enjoy staying active, playing different sports, and <em>developing
+                my coding skills</em>.
             </p>
         </section>
+
+        <figure>
+            <img src="images/portfolio-workspace.svg" alt="A laptop showing a portfolio page beside notes about web development" style="max-width: 100%">
+            <figcaption>A snapshot of the work behind this portfolio.</figcaption>
+        </figure>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-grid">
+                <li class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Semantic structure and accessible links.</p>
+                </li>
+                <li class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Still learning and building a strong foundation.</p>
+                </li>
+                <li class="skill-card">
+                    <h3>Writing</h3>
+                    <p>Clear organization and thoughtful communication.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p><time datetime="2026-08">August 2026</time></p>
+                    <p>The site you are reading, built from scratch in HTML.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>The best way to reach me is through GitHub.</p>
+            <ul>
+                <li><a href="https://github.com/jacobfenn" target="_blank" rel="noopener">My GitHub</a></li>
+            </ul>
+        </section>
     </main>
+
+    <aside id="resources">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a> - the reference I use when I get stuck.</li>
+            <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a> - clear writeups of layout techniques.</li>
+            <li><a href="https://web.dev/" target="_blank" rel="noopener">web.dev</a> - Google's guides on building for the modern web.</li>
+        </ul>
+    </aside>
 
 
     <footer>

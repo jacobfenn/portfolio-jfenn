@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title description">
+    <title id="title">Portfolio workspace</title>
+    <desc id="description">A laptop displaying a portfolio page beside a notebook and pencil.</desc>
+    <rect width="900" height="520" fill="#e8f0ef"/>
+    <rect x="110" y="75" width="590" height="330" rx="16" fill="#17324d"/>
+    <rect x="135" y="100" width="540" height="280" fill="#f8fbfa"/>
+    <rect x="165" y="135" width="210" height="22" fill="#1e7a77"/>
+    <rect x="165" y="180" width="440" height="13" fill="#bdd1cf"/>
+    <rect x="165" y="210" width="350" height="13" fill="#bdd1cf"/>
+    <rect x="165" y="260" width="150" height="70" fill="#e9b949"/>
+    <rect x="340" y="260" width="150" height="70" fill="#d76552"/>
+    <rect x="515" y="260" width="90" height="70" fill="#1e7a77"/>
+    <path d="M55 430h700l-55 35H110z" fill="#17324d"/>
+    <rect x="755" y="150" width="90" height="220" rx="8" fill="#fffdf8" stroke="#d76552" stroke-width="8"/>
+    <path d="M775 190h50M775 220h50M775 250h35M775 300h50M775 330h35" stroke="#17324d" stroke-width="8"/>
+    <path d="M785 390l35 20-65 45-35-20z" fill="#e9b949"/>
+</svg>
