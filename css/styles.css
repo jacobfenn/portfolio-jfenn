@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@400;700&display=swap');
+
+
+
 /* ==========================
    1. RESET
    ========================== */
@@ -21,7 +25,8 @@ img {
 :root {
     --page-width: 64rem;
     --reading-width: 70ch;
-    --font-stack: system-ui, 'Segoe UI', Tahoma, sans-serif;
+    --font-stack: 'Inter', system-ui, -apple-system,sans-serif; /*changed value*/
+    --font-serif: 'Lora', Georgia, serif; /* new token */
     --color-bg: #ffffff;
     --color-surface: #ffffff;
     --color-surface-alt: #f1f5f9;
@@ -53,7 +58,13 @@ body {
     font-family: var(--font-stack);
     font-size: var(--text-base);
     line-height: var(--leading-body);
+
+    'h1, h2, h3 {
+    font-family: var(--font-serif);
+    line-height: var(--leading-heading);
 }
+}
+
 
 h1 { font-size: var(--text-h1); line-height: var(--leading-heading); }
 h2 { font-size: var(--text-h2); line-height: var(--leading-heading); }
